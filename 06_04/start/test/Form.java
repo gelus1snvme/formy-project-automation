@@ -9,8 +9,6 @@ import static org.junit.Assert.assertEquals;
 public class Form {
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\bin\\chromedriver.exe");
-
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://formy-project.herokuapp.com/form");
